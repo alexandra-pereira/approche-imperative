@@ -5,8 +5,9 @@ public class ExerciceTableauChaines {
 
         String[] villes = {"Montpellier", "Nimes", "Nantes", "Anduze", "Marseille"};
 
+        System.out.println("\nTableau de villes  :");
         for (String ville : villes) {
-            System.out.println("Tableau de villes: " + ville);
+            System.out.println(ville);
         }
 
         int longeur = villes.length;

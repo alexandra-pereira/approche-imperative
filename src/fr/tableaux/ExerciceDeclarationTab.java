@@ -11,7 +11,7 @@ public class ExerciceDeclarationTab {
 
         System.out.println("\nLongeur: " + longeur);
 
-        System.out.println("\nEntier positionné au dernier index: " + chiffres[longeur-1]);
+        System.out.println("\nEntier positionné au dernier index: " + chiffres[longeur - 1]);
 
         System.out.println("\nEntier d’index 10: " + chiffres[10]);
         //cela échoue car l'index max du tableau est 8
